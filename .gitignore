@@ -1,0 +1,30 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment Variables & API Secrets
+.env
+*.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model Weights, Checkpoints & Datasets (prevents GitHub 100MB file limit errors)
+*.bin
+*.pt
+*.pth
+*.safetensors
+bert-finetuned-imdb/
+bert_finetuned_imdb/
+model/
+checkpoints/
+
+# OS & Editor Artifacts
+.DS_Store
+.vscode/
+.idea/
