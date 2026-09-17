@@ -84,8 +84,8 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="./checkpoints",
-        help="Root directory for saving checkpoints and generated model cards (default: ./checkpoints)"
+        default=os.path.join(PARENT_DIR, "checkpoints"),
+        help="Root directory for saving checkpoints and generated model cards (default: 2_bert_tasks/checkpoints)"
     )
     parser.add_argument(
         "--push_to_hub",
